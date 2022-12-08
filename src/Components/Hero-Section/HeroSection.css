@@ -1,0 +1,179 @@
+.hero-container {
+  width: 100%;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.hack-krmu-name {
+  width: 100%;
+}
+.name {
+  width: 50%;
+  margin-left: -80px;
+}
+.sub-heading {
+  width: 73%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.heading-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+
+  text-align: center;
+  margin-top: 20px;
+}
+.heading-2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff0000;
+  text-align: center;
+  margin-top: 20px;
+}
+.typing {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  background-color: transparent;
+  max-width: 60%;
+  width: auto;
+  align-items: center;
+}
+input {
+  background-color: transparent;
+
+  border: none;
+  color: #4076ff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  outline: none;
+}
+.register {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.register a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-left: auto;
+  margin-top: auto;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  background-color: #4076ff;
+  padding: 10px 40px;
+}
+.register a:hover {
+  background-color: #fff;
+  color: #4076ff;
+}
+.social {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.social-media {
+  display: flex;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-media {
+  justify-content: center;
+  color: white;
+}
+.social-icon {
+  border: #fff solid 2px;
+  padding: 5px 13px;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+.date-timing {
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-weight: 500;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .logo {
+    width: 65px;
+    height: 65px;
+  }
+  .name {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sub-heading {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .date-timing {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .typing {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-media {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-icon {
+    width: 90%;
+    margin-top: 50px;
+    
+    
+  }
+}
