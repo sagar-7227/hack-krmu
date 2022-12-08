@@ -6,7 +6,7 @@ import { MDBIcon } from "mdbreact";
 const HeroSection = () => {
   const textLines = [
     "Organized by the Students of SOET KRMU",
-    "In collaboration with KEIC Cell",
+    "In collaboration with Developer community",
     "In collaboration with IIT Delhi",
   ];
   return (
